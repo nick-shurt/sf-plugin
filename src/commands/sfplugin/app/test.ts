@@ -59,7 +59,7 @@ export default class Test extends SfdxCommand {
       });
     });
 
-    await exec('sfdx force:apex:test:run -u CCM_DEV');
+    //await exec('sfdx force:apex:test:run -u CCM_DEV');
 
     return null;
   }
